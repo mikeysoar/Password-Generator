@@ -46,6 +46,7 @@ function generatePassword() {
         password += userSelection[index]
       }
       console.log(password)
+      return password;
     }
   }
 }
