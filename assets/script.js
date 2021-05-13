@@ -40,6 +40,12 @@ function generatePassword() {
         userSelection += symbols
       }
       console.log(userSelection)
+      var password = '';
+      for (let i = 0; i < passwordLength; i++) {
+        var index = Math.floor(Math.random() * userSelection.length);
+        password += userSelection[index]
+      }
+      console.log(password)
     }
   }
 }
