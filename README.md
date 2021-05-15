@@ -11,7 +11,7 @@ This is a password generator desiqned to give the user a means of creating a ran
 - JavaScript
 
 ## Screenshots
-
+![password 1](https://github.com/mikeysoar/Password-Generator/blob/main/assets/images/password%201.PNG)
 
 
 
