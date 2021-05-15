@@ -16,6 +16,7 @@ This is a password generator desiqned to give the user a means of creating a ran
 ![password 3](https://github.com/mikeysoar/Password-Generator/blob/main/assets/images/password%203.PNG)
 ![password 4](https://github.com/mikeysoar/Password-Generator/blob/main/assets/images/password%204.PNG)
 ![password 5](https://github.com/mikeysoar/Password-Generator/blob/main/assets/images/password%205.PNG)
+![password 6](https://github.com/mikeysoar/Password-Generator/blob/main/assets/images/password%206.PNG)
 
 
 ## Website
