@@ -20,4 +20,4 @@ This is a password generator desiqned to give the user a means of creating a ran
 
 ## Contirbutions
 
-Michael Warner 
+Michael Warner :smiley:
