@@ -15,20 +15,20 @@ function generatePassword() {
   var numbers = '0123456789';
   var symbols = '!@#$%^&*()/?-_|';
   var userSelection = [];
-  var passwordLength = parseInt( prompt('enter passwordLength'));
+  var passwordLength = parseInt( prompt('enter password Length'));
   if  (passwordLength < 8 || passwordLength > 30) {
     return 'Invalid password length!';
   }
   else {
     var userChoicesUpper = confirm('Do you want upper case letters?');
     var userChoicesLower = confirm('Do you want lower case letters?');
-    var userChoicesNumbers = confirm('Do you want numbers letters?');
-    var userChoicesSymbols = confirm('Do you want symbols letters?');
+    var userChoicesNumbers = confirm('Do you want numbers?');
+    var userChoicesSymbols = confirm('Do you want symbols?');
     if (!userChoicesUpper && !userChoicesLower && !userChoicesNumbers && !userChoicesSymbols) {
       return 'Choose an option.';
     } else {
       if (userChoicesUpper) {
-        userSelection += upperCaseLetters
+        userSelection += upperCaseLetters //userSelection = userSelection + upperCaseLetters
       }
       if (userChoicesLower) {
         userSelection += lowerCaseLetters
